@@ -1,0 +1,93 @@
+#lista1 li {
+    margin-left: 24px;
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+
+
+.titulos { 
+    font-family: 'Times New Roman';
+    color: #005677;
+}
+
+h1 {
+    font-size: 35px;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 12.45px;
+    letter-spacing: 0.2em;
+}
+
+#Bloque-principal {
+    background-color: #C4C4C4;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Bloques-subtitulos {
+    background-color: #C4C4C4;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#Espacio-1 {
+    height: 128px;
+}
+
+
+#Bloque-batman {
+    background-color:#E6E6E6 ;
+    height: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Bloque-footer {
+    background-color:  #005677;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Imagen-Batman {
+    background-position: center center;
+}
+
+p{
+    color:#FFFFFF ;
+    font-weight: bold;
+}
+
+.sangría {
+    text-indent: 80px;
+
+}
+
+.negrita {
+    font-weight: bold;
+
+}
+
+.negrita-cursiva {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#Bloque-final {
+    height: 147px;
+}
+
+.fa-brands {
+    color: #005677;
+    background-color: white;
+}
