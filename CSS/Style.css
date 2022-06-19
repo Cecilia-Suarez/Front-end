@@ -1,95 +1,68 @@
-#Bienvenida {
-    text-align: center;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 35.16px;
-    color: rgba(60, 35, 19, 1);
+* { box-sizing: border-box;}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto;
+    flex-direction: column;
 }
 
-.Bloque-1{
-background-color: rgba(34, 34, 34, 1);
-color: white;
+header{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.Bloque-2{
-background-color: rgba(240, 168, 62, 1);
-}
-
-#Bloque3-Comedero-y-Huesos{
-    background-image: url('https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1655078400&Signature=IKPcMMvUxCahpcZpLYPgE7VU4SF0JIDd828JrVjro~Ev~RdCG9J4qfshoYAttRU0PP8grIa-TZL3ulbIzBuzVRRwmOw2Rm9awKk8Db0BI0QqXPyWrRyLqwzUunFBzRV3XE6zFASNuM5qLxHY-dcJK0X8EyQORFqmYcgvf5DL1mmUNQvGaZpAszNRnSybOUNkT-swAKfHATF468umg-2GYOiyVXotrr8ix7FxrDFkbqqKGfIpdcGkljdDTJ6pWHMy4ry6oln1nq6j72Q9VEGwklLr-qr3ezALUvQjB1FaXV2p-stG2GWQQlaV3Z1Q3SvClJNxsoRNTksAklTGNm88Tw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
-    background-position: center;
-    background-size: cover;
-    height: 620px;
-    background-position-y: -106px;
-    background-position-x: center;
-    text-align: center;
-
-
-}
-
-#Bloque-3{
-    height: 284px;
-    background-color: rgba(60, 35, 19, 1);
-}
-
-#Bloque-4 {
-
-    bottom: 17px;
-    background-color: rgba(60, 35, 19, 1);
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-#color-tx {
-    color:  rgba(255, 255, 255, 1);
-}
-
-.datos {
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
-    color: rgba(138, 135, 135, 1);
-}
-
-.fondo-producto {
-    width: 265px;
-    height: 312px;
-    left: 664px;
-    top: 720px;
-    background-color: rgba(251, 250, 246, 1);
-}
-
-#fondo-resaltado {
-    width: 141px;
-    height: 49px;
-    left: 767px;
-    top: 334px;
-    background-color: rgba(240, 168, 62, 1);
+.BarraSuperior{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    width: 100%;
     align-items: center;
+    font-size: 10px;
+    position: relative;
+}
+
+#ofertas{
+    position: absolute;
+    left: 90px;
+}
+
+#Lenguaje{
+    position: absolute;
+    right: 106px;
+}
+
+#Moneda{
+    position: absolute;
+    right: 60px;
+}
+
+#Banner{
+    background-image: url("https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1656288000&Signature=Ce9Qtrco9bL0JY7aV8GDyOZYCN5LAbncPWLbw5Ry81NWgJ2J323ENxQ15sbOlp0RYZBbIRnUh6WJR26CU3wOWTElubL~o2rKJs5Y~McV2b2fcrxwF8w7JTjp5HvuIhmqUZoz-H-WMiUq1goHU30pScYEsrNP0mD9TymStxDH~eSItzw4I1JFcXABbNjrQaHLZKec5D5MDijCKFcJ6~0Vu~m8m9ERvt9HXnrlJ5JOo-vOvqUUGlo5c98LxRG8hAELJA-rhhsH8F22kU6yXF76IxZU4-QhDYaJ3G7FZkmjKJ0dv6~ngEM3JHSoRwtRKqYIgw~Qn9SbMWQuodI4PPn3CQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 409px;
+    width: 100%;
+    align-items: flex-end;
     justify-content: center;
     display: flex;
-    margin-left: 45.5%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 
-.front {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    color: #3C2313;
-}
-
-#front-final {
-    color: rgba(255, 255, 255, 1) ;
-}
-
-.nombre-producto {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: rgba(60, 35, 19, 1);
-    text-align: center;
+#BarraDeNavegacion{
+    background-color: rgba(240, 168, 62, 1);
+    height: 62px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .perro-y-gato {
@@ -99,79 +72,229 @@ body {
     color: #FFFFFF;
 }
 
-.precio-producto {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: rgba(240, 168, 62, 1);
-    text-align: center;
+.front {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3C2313;
 }
 
-#productos {
+#BarraDeNavegacion p{
+    left: 40px;
+    position: absolute;
+}
+
+a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    padding-right: 23.64px;
+}
+
+#Bienvenida{
+    text-align: center;
+    width: 365px;
+    height: 54px;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 35.16px;
+    color: rgba(60, 35, 19, 1);
+    padding: 9px 10px 10px 10px;
+    background-color: white;
+    margin-bottom: 12px;
+    position: relative;
+    right: 12px;
+}
+
+#DtoComederos{
+    font-size: 16px;
+    color: rgba(60, 35, 19, 1);
+    margin-bottom: 12px;
+    position: relative;
+    right: 95px;
+}
+
+#Comederos{
+    color: rgba(255, 255, 255, 1);
+    width: 141px;
+    height: 49px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    padding: 15px 23px;
+    position: relative;
+    right: 117px;
+}
+
+#ProductosDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#patita{
+    height: 71px;
+    width: 67px;
+    margin-top: 20px;
+}
+
+#PtoDestacados{
+    font-size: 40px;
+    color: rgba(60, 35, 19, 1);
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+#Productos{
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px;
-    color: rgba(102, 102, 102, 1);   
-    text-align: center;
-   
+    color: rgba(102, 102, 102, 1);  
+    margin-top: 20px; 
 }
 
-#productos-destacados {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
+#ContenedorCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Cards{
+    width: 264px;
+    height: 312px;
+    background-color: rgba(251, 250, 246, 1);
+    margin-top: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Tamaño{
+    
+    max-height: 211px;
+    max-width: 239px;
+}
+
+.NombreProducto{
+    font-weight: 500;
+    font-size: 15px;
     color: rgba(60, 35, 19, 1);
-    text-align: center;
+    font-weight: bold;
 }
 
-#resaltado {
-    color: rgba(255, 255, 255, 1);
-    font-size: 16px;
-    line-height: 19px;
-    line-height: 100%;
-    text-align: center;
-
-}
-
-#subtitulo1 {
-    font-size: 16px;
-    line-height: 19px;
-    line-height: 100%;
-    color: rgba(60, 35, 19, 1);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#ubicación-tx {
-      text-align: center;
-}
-
-
-
-
-#patita {
-    text-align: center;
-}
-
-
-
-#perro-y-gato-final {
+.PrecioProducto{
+    font-weight: 500;
+    font-size: 15px;
     color: rgba(240, 168, 62, 1);
+    font-weight: bold;
+    margin-bottom: 7.5px;
+    margin-top: 0;
+}
+
+#Suscripcion{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #F0A83E;
+    margin-top: 417px;
+}
+
+#Suscripcion p{
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 40px;
+    position: relative;
+}
+
+#Suscripcion img{
+    position: relative;
+    left: 23px;
+}
+
+#Datos{
+    bottom: 0px;
+    background-color: rgba(60, 35, 19, 1);
+    display: flex;
+    height: 284px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    bottom: 0%;
+    position: absolute;
+}
+
+.Logo{
+    width: 66px;
+    height: 66px;
+    margin-bottom: 23px;
+    margin-left: 70px;
+}
+
+.Detalle{
+    font-weight: 700;
+    font-size: 10px;
+    color: rgba(138, 135, 135, 1);
+    
+ 
+}
+
+.Contacto1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25px;
+    left: -290px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Contacto2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25px;
+    left: -290px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Contacto3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 25px;
+    left: -290px;
+    position: relative;
+}
+
+#ImagenesLogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+#PerroYGatoFinal {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#FrontFinal {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F0A83E;
 }
