@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 
-<link rel ="stylesheet" href = "CSS/Style.css">
+<link rel ="stylesheet" href = "CSS/Style2.css">
 
 <html>
 
 <head>
     <meta charset="UTF -8">
-    <title>Clase 12</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 15</title>
     <script src="https://kit.fontawesome.com/e50f04e157.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
-<body id="contenedor.body">
+<body>
     
     <header>
-        <section class="BarraSuperior">
-            <p id="ofertas">Grandes ofertas en comederos</p>
-            <p id="Lenguaje">Español</p>
-            <p id="Moneda">$ARG</p>
+        <section id="BarraSuperior" id="Desaparecer">
+            <p>Grandes ofertas en comederos</p>
+            <select name="Lenguaje" id="Lenguaje">
+                <option value="text">Español</option>
+                <option value="text">Inglés</option>
+                <option value="text">Portugués</option>
+            </select>
+            <select name="Moneda" id="Moneda">
+                <option>$ARG</option>
+                <option>$UY</option>
+                <option>U$$</option>
+                <option>R$</option>
+            </select>
         </section>
         
         <section id="BarraDeNavegacion">
             <p><img src="img/Cat.png" alt="Cat"><span class="front">Front</span><span class="perro-y-gato">Cat&Dog</span><img src="img/Dog.png" alt="Dog"></p>
+            <a href="menu" id="menu"><img src="img/menu.png" alt="menu"></a> 
             <nav>
                 <a href="Categorias"><img src="img/patita-blanco.png" alt="patita 1">Categorías</a>
                 <a href="Pets"><img src="img/patita-blanco.png" alt="patita 1">Pets</a>
@@ -33,70 +44,78 @@
         </section>
     </header>
 
-    <section id="Banner">
-        <p id="Bienvenida">¡Es un placer tenerte aquí!</p> 
-        <p id="DtoComederos">¡Comederos en descuento!</p>
-        <p id="Comederos">COMEDEROS</p>
-    </section>
+    <main>
+        <section id="Banner">
+            <p id="Bienvenida">¡Es un placer tenerte aquí!</p> 
+            <p id="DtoComederos">¡Comederos en descuento!</p>
+            <a href="#">COMEDEROS</a>
+        </section>
+        
+        <section id="ProductosDestacados">
+            <img src="img/patita.png" alt="patita 2">
+            <p>Productos Destacados</p>
+            <nav id="Productos">
+                <a href="#">Comederos</a>
+                <a href="#">Accesorios</a>
+                <a href="#">Comida</a>
+            </nav>
+        </section>
+        
+        <section id="ContenedorCards">
+            <article>
+                <img src="img/Churrasco.png" alt="Churrasquitos">
+                <p >Churrasquito</p>
+                <p class="PrecioProducto">$150</p></div>
+            </article>
+            
+            <article>
+                <img src="img/Comedero.png" alt="Tazón">
+                <p>Comedero para perro</p>
+                <p class="PrecioProducto">$250</p>
+            </article>
+            
+            <article>
+                <img src="img/Juguetes.png" alt="Huesitos">
+                <p>Juguete Huesito</p>
+                <p class="PrecioProducto">$650</p>
+            </article>
+        </section>
+        
+        <section id="Suscripcion">
+            <img src="img/Carta.png" alt="Carta">
+            <p>Suscribite para más novedades</p>
+        </section>
+        
+        
+        <section id="Datos">
+            <div id="ImagenesLogo">
+                <img class="Logo" src="img/Logo-Location.png">
+                <img class="Logo" src="img/Logo-Teléfono.png">
+                <img class="Logo" src="img/Logo-Correo.png">
+            </div>
+                
+            <div id="letras">
+                <ul>
+                    <li class="perro-y-gato">Localidad</li>
+                    <li class="Detalle">Calle - Provincia</li>
+                </ul>
+             
+                <ul>
+                    <li class="perro-y-gato">Teléfono</li>
+                    <li class="Detalle">Número de teléfono</li>
+                </ul>
+        
+                <ul>
+                    <li class="perro-y-gato">Correo Electrónico</li>
+                    <li class="Detalle">Dirección de correo</li>
+                </ul>
+            </div>
+            <p><img src="img/Cat.png" alt="Cat"><span class="perro-y-gato">Front</span><span class="perro-y-gato" id="Color">Cat&Dog</span><img src="img/Dog.png" alt="Dog"></p>
+        </section>
+    </main>
 
-    <section id="ProductosDestacados">
-        <img id=patita src="img/patita.png" alt="patita 2">
-        <p id="PtoDestacados">Productos Destacados</p>
-        <p id="Productos">Comederos - Accesorios - Comida</p>
-    </section>
-    
-    <section id="ContenedorCards">
-        <article class="Cards">
-            <img class="Tamaño" src="img/Churrasco.png" alt="Churrasquitos">
-            <p class="NombreProducto">Churrasquito</p>
-            <p class="PrecioProducto">$150</p></div>
-        </article>
-
-        <article class="Cards">
-            <img src="img/Comedero.png" alt="Tazón">
-            <p class="NombreProducto">Comedero para perro</p>
-            <p class="PrecioProducto">$250</p>
-        </article>
-
-        <article class="Cards">
-        <img class="Tamaño" src="img/Juguetes.png" alt="Huesitos">
-        <p class="NombreProducto">Juguete Huesito</p>
-        <p class="PrecioProducto">$650</p>
-        </article>
-    </section>
-
-    <section id="Suscripcion">
-        <img src="img/Carta.png" alt="Carta">
-        <p>Suscribite para más novedades</p>
-    </section>
-
-    <section id="Datos">
-        <p id="ImagenesLogo">
-            <img class="Logo" src="img/Logo-Location.png">
-            <img class="Logo" src="img/Logo-Teléfono.png">
-            <img class="Logo" src="img/Logo-Correo.png">
-        </p>
-
-        <ul style="list-style: none" class="Contacto1">
-            <li class="perro-y-gato">Localidad</li>
-            <li class="Detalle">Calle - Provincia</li>
-        </ul>
-     
-        <ul style="list-style: none" class="Contacto2">
-            <li class="perro-y-gato">Teléfono</li>
-            <li class="Detalle">Número de teléfono</li>
-        </ul>
-
-        <ul style="list-style: none" class="Contacto3">
-            <li class="perro-y-gato">Correo Electrónico</li>
-            <li class="Detalle">Dirección de correo</li>
-        </ul>
-
-        <p><img src="img/Cat.png" alt="Cat"><span id="FrontFinal">Front</span><span id="PerroYGatoFinal">Cat&Dog</span><img src="img/Dog.png" alt="Dog"></p></div>
-    </section>
-
-    <footer class="BarraSuperior">
-        <p>Todos los derechos reservados Front End</p>
+    <footer>
+       <p>Todos los derechos reservados Front End</p> 
     </footer>
 </body>
 

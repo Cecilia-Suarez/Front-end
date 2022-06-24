@@ -1,0 +1,287 @@
+* { box-sizing: border-box;}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#BarraSuperior{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    width: 100%;
+    font-size: 0.625rem;
+    padding-top: 0.25rem;
+    padding-bottom: 00.25rem;
+    padding-left: 5.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#Lenguaje{
+    position: absolute;
+    right: 6.625rem;
+    background-color: black;
+    color: white;
+}
+
+#Moneda{
+    position: absolute;
+    right: 3.75rem;
+    background-color: black;
+    color: white;
+}
+
+#BarraDeNavegacion{
+    background-color: rgba(240, 168, 62, 1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.813rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#BarraDeNavegacion a{
+    text-decoration: none;
+    color: white;
+    padding-right: 2.25rem;   
+}
+
+#BarraDeNavegacion p{
+    font-size: 1.25rem;
+    left: 3.625rem ;
+    position: absolute;
+    font-weight: 700;
+}
+
+.front{
+    color: rgba(60, 35, 19, 1);
+}
+
+#Color{
+    color: #F0A83E;
+}
+
+.perro-y-gato{
+    color: white;
+    font-weight: 700;
+}
+
+#Banner{
+    background-image: url("https://s3-alpha-sig.figma.com/img/53ec/2946/b101b9298925dcc2ae1d629537e66036?Expires=1656288000&Signature=Ce9Qtrco9bL0JY7aV8GDyOZYCN5LAbncPWLbw5Ry81NWgJ2J323ENxQ15sbOlp0RYZBbIRnUh6WJR26CU3wOWTElubL~o2rKJs5Y~McV2b2fcrxwF8w7JTjp5HvuIhmqUZoz-H-WMiUq1goHU30pScYEsrNP0mD9TymStxDH~eSItzw4I1JFcXABbNjrQaHLZKec5D5MDijCKFcJ6~0Vu~m8m9ERvt9HXnrlJ5JOo-vOvqUUGlo5c98LxRG8hAELJA-rhhsH8F22kU6yXF76IxZU4-QhDYaJ3G7FZkmjKJ0dv6~ngEM3JHSoRwtRKqYIgw~Qn9SbMWQuodI4PPn3CQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25.563rem;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#Bienvenida{
+    border-radius: 0.313rem;
+    font-size: 1.875rem;
+    color: rgba(60, 35, 19, 1);
+    padding: 0.625rem 0.625rem;
+    background-color: white;
+    margin-bottom: 0.75rem;
+    position: relative;
+    right: 0.75rem;
+}
+
+#DtoComederos{
+    font-size: 1rem;
+    color: rgba(60, 35, 19, 1);
+    margin-bottom: 1rem;
+    position: relative;
+    right: 5.938rem;
+}
+
+#Banner a{
+    color: rgba(255, 255, 255, 1);
+    background-color: #F0A83E;
+    border-radius: 0.313rem;
+    padding: 0.938rem 1.430rem;
+    position: relative;
+    right: 7.313rem;
+    text-decoration: none;
+}
+
+#ProductosDestacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    color: rgba(60, 35, 19, 1);
+    font-weight: 700;
+}
+
+#ProductosDestacados img{
+    height: 4.438rem;
+    width: 4.188rem;
+    margin-top: 1.25rem;
+}
+
+#Productos{
+    font-weight: 400;
+    margin-top: 1.25rem; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+#Productos a{
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1); 
+    font-size: 0.938rem;
+    margin-left: 1.938rem;
+}
+
+#ContenedorCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    width: 16.5rem;
+    background-color: rgba(251, 250, 246, 1);
+    margin-top: 3.063rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 4.875rem;
+}
+
+article p{
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: rgba(60, 35, 19, 1);
+    font-weight: bold;
+}
+
+.PrecioProducto{
+    color: rgba(240, 168, 62, 1);
+}
+
+#Suscripcion{
+    display: flex;
+    align-items: center;
+    background-color: #F0A83E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-left: 1.813rem;
+}
+
+#Suscripcion p{
+    padding-left: 0.625rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    bottom: 0%;
+    position: relative;
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+    width: 100%;
+    font-size: 0.625rem;
+}
+
+#Datos{
+    bottom: 0px;
+    background-color: rgba(60, 35, 19, 1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+    list-style-type: none;
+}
+
+#ImagenesLogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.Logo{
+    width: 4.125rem;
+    height: 4.125rem;
+    margin-bottom: 23px;
+    margin-left: 70px;
+    
+}
+
+.Detalle{
+    font-weight: 700;
+    font-size: 10px;
+    color: rgba(138, 135, 135, 1);
+}
+
+#Datos p{
+    align-self: center;
+    right: 4.938rem;
+    position: absolute;
+}
+
+@media (max-width: 690px){
+    #BarraSuperior{
+        display: none;
+    }
+
+    #BarraDeNavegacion nav{
+        display: none;
+    }
+
+    #Datos p{
+        align-self: flex-start;
+        justify-self: center;
+        left: 30vw;
+    }
+
+    #letras, #ImagenesLogo{
+        margin-top: 3rem;
+    }
+    
+    #ProductosDestacados p{
+        font-size: 2rem;
+    }
+
+    
+}
